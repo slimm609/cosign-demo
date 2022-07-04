@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: kuard-ns1
+  labels:
+    kubernetes.io/metadata.name: kuard-ns1
+    policy.sigstore.dev/include: "true"

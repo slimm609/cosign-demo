@@ -1,0 +1,11 @@
+apiVersion: policy.sigstore.dev/v1beta1
+kind: ClusterImagePolicy
+metadata:
+  name: cosign-demo
+spec:
+  images:
+  - glob: "**"
+  authorities:
+  - key:
+      secretRef:
+        name: cosignpub

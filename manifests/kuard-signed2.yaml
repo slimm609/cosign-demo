@@ -1,0 +1,5 @@
+name: kuard-demo-2
+
+image:
+  repository: slimm609/cosign-demo
+  tag: kuard-signed2

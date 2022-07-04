@@ -1,0 +1,9 @@
+name: kuard-demo
+
+image:
+  repository: slimm609/cosign-demo
+  tag: kuard-unsigned
+  pullPolicy: Always
+
+annotations: {}
+podAnnotations: {}
